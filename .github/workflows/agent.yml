@@ -4,11 +4,12 @@ on:
   workflow_dispatch:
   schedule:
     # Instagram: every hour
-    - cron: "0 * * * *"
+    #- cron: "0 * * * *"
     # YouTube: 8:00 AM IST (02:30 UTC)
-    - cron: "30 2 * * *"
+    #- cron: "30 2 * * *"
     # YouTube: 9:00 PM IST (15:30 UTC)
-    - cron: "30 15 * * *"
+    #- cron: "30 15 * * *"
+    workflow_dispatch: #
 
 permissions:
   contents: write
